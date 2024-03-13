@@ -1,0 +1,33 @@
+{
+  "originHash" : "aaa8adf25ce73ea3fd8aaa27ca4809f9677622d61591629e283e43ea046bd119",
+  "pins" : [
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "0ed110f7555c34ff468e72e1686e59721f2b0da6",
+        "version" : "5.3.0"
+      }
+    },
+    {
+      "identity" : "swerl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yenrab/SwErl/",
+      "state" : {
+        "revision" : "e53e1dc4c509ea635f60a276513aa53aab1454ec",
+        "version" : "0.9.20"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "e97a6fcb1ab07462881ac165fdbb37f067e205d5",
+        "version" : "1.5.4"
+      }
+    }
+  ],
+  "version" : 3
+}

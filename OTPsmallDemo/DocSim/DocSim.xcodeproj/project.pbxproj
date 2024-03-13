@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2643B20B2B91118D004B3956 /* DocSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B20A2B91118D004B3956 /* DocSimApp.swift */; };
+		2643B20D2B91118D004B3956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B20C2B91118D004B3956 /* ContentView.swift */; };
+		2643B20F2B91118E004B3956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2643B20E2B91118E004B3956 /* Assets.xcassets */; };
+		2643B2132B91118E004B3956 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2643B2122B91118E004B3956 /* Preview Assets.xcassets */; };
+		2643B21A2B911629004B3956 /* distribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2192B911629004B3956 /* distribution.swift */; };
+		2643B21F2B911740004B3956 /* PersonStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B21E2B911740004B3956 /* PersonStateM.swift */; };
+		2643B2212B914B13004B3956 /* LoadingDockStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2202B914B13004B3956 /* LoadingDockStateM.swift */; };
+		2643B2232B915774004B3956 /* ProductQueueStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2222B915774004B3956 /* ProductQueueStateM.swift */; };
+		2643B2252B92481F004B3956 /* TruckStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2242B92481F004B3956 /* TruckStateM.swift */; };
+		2643B2272B924FE0004B3956 /* DocSimEventManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2262B924FE0004B3956 /* DocSimEventManagers.swift */; };
+		2643B2292B9284E4004B3956 /* ConveyerBelt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2282B9284E4004B3956 /* ConveyerBelt.swift */; };
+		26E70AFD2BA2404000C62D66 /* SwErl in Frameworks */ = {isa = PBXBuildFile; productRef = 26E70AFC2BA2404000C62D66 /* SwErl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2643B2072B91118D004B3956 /* DocSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2643B20A2B91118D004B3956 /* DocSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocSimApp.swift; sourceTree = "<group>"; };
+		2643B20C2B91118D004B3956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2643B20E2B91118E004B3956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2643B2102B91118E004B3956 /* DocSim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocSim.entitlements; sourceTree = "<group>"; };
+		2643B2122B91118E004B3956 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2643B2192B911629004B3956 /* distribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distribution.swift; sourceTree = "<group>"; };
+		2643B21E2B911740004B3956 /* PersonStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStateM.swift; sourceTree = "<group>"; };
+		2643B2202B914B13004B3956 /* LoadingDockStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDockStateM.swift; sourceTree = "<group>"; };
+		2643B2222B915774004B3956 /* ProductQueueStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductQueueStateM.swift; sourceTree = "<group>"; };
+		2643B2242B92481F004B3956 /* TruckStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckStateM.swift; sourceTree = "<group>"; };
+		2643B2262B924FE0004B3956 /* DocSimEventManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocSimEventManagers.swift; sourceTree = "<group>"; };
+		2643B2282B9284E4004B3956 /* ConveyerBelt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveyerBelt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2643B2042B91118D004B3956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E70AFD2BA2404000C62D66 /* SwErl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2643B1FE2B91118D004B3956 = {
+			isa = PBXGroup;
+			children = (
+				2643B2092B91118D004B3956 /* DocSim */,
+				2643B2082B91118D004B3956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2643B2082B91118D004B3956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2643B2072B91118D004B3956 /* DocSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2643B2092B91118D004B3956 /* DocSim */ = {
+			isa = PBXGroup;
+			children = (
+				2643B20A2B91118D004B3956 /* DocSimApp.swift */,
+				2643B20C2B91118D004B3956 /* ContentView.swift */,
+				2643B2192B911629004B3956 /* distribution.swift */,
+				2643B21E2B911740004B3956 /* PersonStateM.swift */,
+				2643B2242B92481F004B3956 /* TruckStateM.swift */,
+				2643B2282B9284E4004B3956 /* ConveyerBelt.swift */,
+				2643B2222B915774004B3956 /* ProductQueueStateM.swift */,
+				2643B2262B924FE0004B3956 /* DocSimEventManagers.swift */,
+				2643B2202B914B13004B3956 /* LoadingDockStateM.swift */,
+				2643B20E2B91118E004B3956 /* Assets.xcassets */,
+				2643B2102B91118E004B3956 /* DocSim.entitlements */,
+				2643B2112B91118E004B3956 /* Preview Content */,
+			);
+			path = DocSim;
+			sourceTree = "<group>";
+		};
+		2643B2112B91118E004B3956 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2643B2122B91118E004B3956 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2643B2062B91118D004B3956 /* DocSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2643B2162B91118E004B3956 /* Build configuration list for PBXNativeTarget "DocSim" */;
+			buildPhases = (
+				2643B2032B91118D004B3956 /* Sources */,
+				2643B2042B91118D004B3956 /* Frameworks */,
+				2643B2052B91118D004B3956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocSim;
+			packageProductDependencies = (
+				26E70AFC2BA2404000C62D66 /* SwErl */,
+			);
+			productName = DocSim;
+			productReference = 2643B2072B91118D004B3956 /* DocSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2643B1FF2B91118D004B3956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2643B2062B91118D004B3956 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2643B2022B91118D004B3956 /* Build configuration list for PBXProject "DocSim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2643B1FE2B91118D004B3956;
+			packageReferences = (
+				2643B21B2B91165C004B3956 /* XCRemoteSwiftPackageReference "SwErl" */,
+			);
+			productRefGroup = 2643B2082B91118D004B3956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2643B2062B91118D004B3956 /* DocSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2643B2052B91118D004B3956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643B2132B91118E004B3956 /* Preview Assets.xcassets in Resources */,
+				2643B20F2B91118E004B3956 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2643B2032B91118D004B3956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2643B2232B915774004B3956 /* ProductQueueStateM.swift in Sources */,
+				2643B2292B9284E4004B3956 /* ConveyerBelt.swift in Sources */,
+				2643B21A2B911629004B3956 /* distribution.swift in Sources */,
+				2643B20D2B91118D004B3956 /* ContentView.swift in Sources */,
+				2643B2212B914B13004B3956 /* LoadingDockStateM.swift in Sources */,
+				2643B21F2B911740004B3956 /* PersonStateM.swift in Sources */,
+				2643B20B2B91118D004B3956 /* DocSimApp.swift in Sources */,
+				2643B2272B924FE0004B3956 /* DocSimEventManagers.swift in Sources */,
+				2643B2252B92481F004B3956 /* TruckStateM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2643B2142B91118E004B3956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2643B2152B91118E004B3956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2643B2172B91118E004B3956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocSim/DocSim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocSim/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PP6CF7YNT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.barney.lee.DocSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2643B2182B91118E004B3956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocSim/DocSim.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocSim/Preview Content\"";
+				DEVELOPMENT_TEAM = 4PP6CF7YNT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.barney.lee.DocSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2643B2022B91118D004B3956 /* Build configuration list for PBXProject "DocSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643B2142B91118E004B3956 /* Debug */,
+				2643B2152B91118E004B3956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2643B2162B91118E004B3956 /* Build configuration list for PBXNativeTarget "DocSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2643B2172B91118E004B3956 /* Debug */,
+				2643B2182B91118E004B3956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2643B21B2B91165C004B3956 /* XCRemoteSwiftPackageReference "SwErl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yenrab/SwErl/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.16;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26E70AFC2BA2404000C62D66 /* SwErl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2643B21B2B91165C004B3956 /* XCRemoteSwiftPackageReference "SwErl" */;
+			productName = SwErl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2643B1FF2B91118D004B3956 /* Project object */;
+}

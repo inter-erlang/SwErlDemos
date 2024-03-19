@@ -68,12 +68,12 @@ enum TruckStateM:GenStatemBehavior{
             return ((capacity,stdArrivalTime,stdLoadingTime),filled + 1,filledTracker)
         case .depart:
             print("\n\n\n!!!!!!!!!!!!!!!!\ntruck departing\n!!!!!!!!!!!!!!!!!!!!\n\n\n")
-            guard let lnRand = LogNormalServer.next(from: "lnserver") else{
+            guard let lnRand = TriangularDistributionServer.next(from: "triaserver") else{
                 return current_state
             }
             let nextArrivalTime = Double(lnRand) * stdArrivalTime
             
-            guard let leaveLnRand = LogNormalServer.next(from: "lnserver") else{
+            guard let leaveLnRand = TriangularDistributionServer.next(from: "triaserver") else{
                 return current_state
             }
             let nextLeaveTime = nextArrivalTime + Double(leaveLnRand) * stdLoadingTime

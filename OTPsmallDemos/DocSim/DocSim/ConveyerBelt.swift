@@ -9,12 +9,12 @@ import Foundation
 
 func streamProduct(arrivalInterval theInterval:UInt){//seconds
     
-    guard let lnRand = LogNormalServer.next(from: "lnserver") else{
+    guard let triaRand = TriangularDistributionServer.next(from: "triaserver") else{
         print("failed to gen random")
         return
     }
     //use a timer to delay the time.
-    Timer.scheduledTimer(withTimeInterval: TimeInterval(Float(theInterval) * lnRand), repeats: false) { _ in
+    Timer.scheduledTimer(withTimeInterval: TimeInterval(Double(theInterval) * triaRand), repeats: false) { _ in
         ProductQueueStateM.putProduct()
         streamProduct(arrivalInterval: theInterval)
         return//this is returning from the timer, not the function

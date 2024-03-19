@@ -67,7 +67,7 @@ enum PersonStateM:GenStatemBehavior{
             return current_state
         }
         
-        guard let lnRand = LogNormalServer.next(from: "lnserver") else{
+        guard let lnRand = TriangularDistributionServer.next(from: "triaserver") else{
             return current_state
         }
         let randAsDouble = Double(lnRand)

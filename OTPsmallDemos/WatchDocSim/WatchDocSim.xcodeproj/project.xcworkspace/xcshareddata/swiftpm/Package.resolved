@@ -1,5 +1,5 @@
 {
-  "originHash" : "a43562d90ce61870349b54f3b27d72d8965a2f3935d344a4c721461983ff2990",
+  "originHash" : "b8ab991e6cb69361f530bace10d8dbbfcf90cd6589cadfd992d398a6a689d495",
   "pins" : [
     {
       "identity" : "bigint",
@@ -13,7 +13,7 @@
     {
       "identity" : "swerl",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/yenrab/SwErl/",
+      "location" : "https://github.com/inter-erlang/SwErl",
       "state" : {
         "revision" : "e53e1dc4c509ea635f60a276513aa53aab1454ec",
         "version" : "0.9.20"

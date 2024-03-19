@@ -1,15 +1,13 @@
 //
 //  ContentView.swift
-//  DocSim
+//  WatchDocSim Watch App
 //
-//  Created by yenrab on 2/29/24.
+//  Created by Barney, Lee on 3/19/24.
 //
 
 import SwiftUI
 import Charts
 import SwErl
-
-
 
 struct Statistic: Identifiable {
     var type: String
@@ -18,26 +16,18 @@ struct Statistic: Identifiable {
 }
 struct ContentView: View {
     @State var bobStats = [
-        Statistic(type: "w", percentage: 1.0),
-        Statistic(type: "b", percentage: 2.0),
-        Statistic(type: "l", percentage: 3.0)]
+        Statistic(type: "w", percentage: 0.0),
+        Statistic(type: "b", percentage: 0.0),
+        Statistic(type: "l", percentage: 0.0)]
     @State var camilaStats = [
-        Statistic(type: "w", percentage: 2.0),
-        Statistic(type: "b", percentage: 3.0),
-        Statistic(type: "l", percentage: 4.0)]
+        Statistic(type: "w", percentage: 0.0),
+        Statistic(type: "b", percentage: 0.0),
+        Statistic(type: "l", percentage: 0.0)]
     
     @State var truckLeavePercentFull:UInt = 0
     let colorMap:[String:Color] = ["w":.green,"b":.blue,"l":.orange]
     var body: some View {
-        VStack {    
-            HStack{
-            Image("Header")
-                .resizable()
-                .scaledToFit()
-                .frame(maxHeight: 100.0)
-                .clipped()
-        }
-            Spacer()
+        VStack {
             HStack{
                 VStack{
                     Text("camila")
@@ -67,7 +57,7 @@ struct ContentView: View {
                     Text("\(truckLeavePercentFull)").foregroundStyle(Color.yellow)
                     Spacer()
                 }
-            }.frame(maxHeight:200)//end of HStack
+            }//end of HStack
             HStack{
                 Spacer()
                 Text("box").foregroundStyle(colorMap["b"] ?? Color.gray)

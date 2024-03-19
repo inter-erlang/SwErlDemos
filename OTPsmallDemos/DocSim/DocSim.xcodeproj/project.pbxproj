@@ -11,13 +11,13 @@
 		2643B20D2B91118D004B3956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B20C2B91118D004B3956 /* ContentView.swift */; };
 		2643B20F2B91118E004B3956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2643B20E2B91118E004B3956 /* Assets.xcassets */; };
 		2643B2132B91118E004B3956 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2643B2122B91118E004B3956 /* Preview Assets.xcassets */; };
-		2643B21A2B911629004B3956 /* distribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2192B911629004B3956 /* distribution.swift */; };
 		2643B21F2B911740004B3956 /* PersonStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B21E2B911740004B3956 /* PersonStateM.swift */; };
 		2643B2212B914B13004B3956 /* LoadingDockStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2202B914B13004B3956 /* LoadingDockStateM.swift */; };
 		2643B2232B915774004B3956 /* ProductQueueStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2222B915774004B3956 /* ProductQueueStateM.swift */; };
 		2643B2252B92481F004B3956 /* TruckStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2242B92481F004B3956 /* TruckStateM.swift */; };
 		2643B2272B924FE0004B3956 /* DocSimEventManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2262B924FE0004B3956 /* DocSimEventManagers.swift */; };
 		2643B2292B9284E4004B3956 /* ConveyerBelt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2643B2282B9284E4004B3956 /* ConveyerBelt.swift */; };
+		26BFE2E02BA9EF1D00BA85AF /* TriangularDistributionServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BFE2DF2BA9EF1D00BA85AF /* TriangularDistributionServer.swift */; };
 		26E70AFD2BA2404000C62D66 /* SwErl in Frameworks */ = {isa = PBXBuildFile; productRef = 26E70AFC2BA2404000C62D66 /* SwErl */; };
 /* End PBXBuildFile section */
 
@@ -28,13 +28,13 @@
 		2643B20E2B91118E004B3956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2643B2102B91118E004B3956 /* DocSim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocSim.entitlements; sourceTree = "<group>"; };
 		2643B2122B91118E004B3956 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2643B2192B911629004B3956 /* distribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distribution.swift; sourceTree = "<group>"; };
 		2643B21E2B911740004B3956 /* PersonStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStateM.swift; sourceTree = "<group>"; };
 		2643B2202B914B13004B3956 /* LoadingDockStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDockStateM.swift; sourceTree = "<group>"; };
 		2643B2222B915774004B3956 /* ProductQueueStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductQueueStateM.swift; sourceTree = "<group>"; };
 		2643B2242B92481F004B3956 /* TruckStateM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckStateM.swift; sourceTree = "<group>"; };
 		2643B2262B924FE0004B3956 /* DocSimEventManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocSimEventManagers.swift; sourceTree = "<group>"; };
 		2643B2282B9284E4004B3956 /* ConveyerBelt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConveyerBelt.swift; sourceTree = "<group>"; };
+		26BFE2DF2BA9EF1D00BA85AF /* TriangularDistributionServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangularDistributionServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			children = (
 				2643B20A2B91118D004B3956 /* DocSimApp.swift */,
 				2643B20C2B91118D004B3956 /* ContentView.swift */,
-				2643B2192B911629004B3956 /* distribution.swift */,
+				26BFE2DF2BA9EF1D00BA85AF /* TriangularDistributionServer.swift */,
 				2643B21E2B911740004B3956 /* PersonStateM.swift */,
 				2643B2242B92481F004B3956 /* TruckStateM.swift */,
 				2643B2282B9284E4004B3956 /* ConveyerBelt.swift */,
@@ -170,7 +170,7 @@
 			files = (
 				2643B2232B915774004B3956 /* ProductQueueStateM.swift in Sources */,
 				2643B2292B9284E4004B3956 /* ConveyerBelt.swift in Sources */,
-				2643B21A2B911629004B3956 /* distribution.swift in Sources */,
+				26BFE2E02BA9EF1D00BA85AF /* TriangularDistributionServer.swift in Sources */,
 				2643B20D2B91118D004B3956 /* ContentView.swift in Sources */,
 				2643B2212B914B13004B3956 /* LoadingDockStateM.swift in Sources */,
 				2643B21F2B911740004B3956 /* PersonStateM.swift in Sources */,
@@ -306,7 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DocSim/Preview Content\"";
-				DEVELOPMENT_TEAM = 4PP6CF7YNT;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -344,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DocSim/Preview Content\"";
-				DEVELOPMENT_TEAM = 4PP6CF7YNT;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

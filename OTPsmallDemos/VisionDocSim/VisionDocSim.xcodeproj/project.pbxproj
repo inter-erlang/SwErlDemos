@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D0F24F2BAF42870031FC25 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 26D0F24E2BAF42870031FC25 /* RealityKitContent */; };
+		26D0F2512BAF42870031FC25 /* VisionDocSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2502BAF42870031FC25 /* VisionDocSimApp.swift */; };
+		26D0F2532BAF42870031FC25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2522BAF42870031FC25 /* ContentView.swift */; };
+		26D0F2552BAF42880031FC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D0F2542BAF42880031FC25 /* Assets.xcassets */; };
+		26D0F2582BAF42880031FC25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D0F2572BAF42880031FC25 /* Preview Assets.xcassets */; };
+		26D0F2612BAF43530031FC25 /* SwErl in Frameworks */ = {isa = PBXBuildFile; productRef = 26D0F2602BAF43530031FC25 /* SwErl */; };
+		26D0F2692BAF43BD0031FC25 /* ConveyerBelt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2622BAF43BD0031FC25 /* ConveyerBelt.swift */; };
+		26D0F26A2BAF43BD0031FC25 /* TriangularDistributionServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2632BAF43BD0031FC25 /* TriangularDistributionServer.swift */; };
+		26D0F26B2BAF43BD0031FC25 /* ProductQueueStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2642BAF43BD0031FC25 /* ProductQueueStateM.swift */; };
+		26D0F26C2BAF43BD0031FC25 /* DocSimEventManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2652BAF43BD0031FC25 /* DocSimEventManagers.swift */; };
+		26D0F26D2BAF43BD0031FC25 /* TruckStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2662BAF43BD0031FC25 /* TruckStateM.swift */; };
+		26D0F26E2BAF43BD0031FC25 /* LoadingDockStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2672BAF43BD0031FC25 /* LoadingDockStateM.swift */; };
+		26D0F26F2BAF43BD0031FC25 /* PersonStateM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0F2682BAF43BD0031FC25 /* PersonStateM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26D0F2492BAF42870031FC25 /* VisionDocSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionDocSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D0F24D2BAF42870031FC25 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		26D0F2502BAF42870031FC25 /* VisionDocSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionDocSimApp.swift; sourceTree = "<group>"; };
+		26D0F2522BAF42870031FC25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26D0F2542BAF42880031FC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D0F2572BAF42880031FC25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26D0F2592BAF42880031FC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D0F2622BAF43BD0031FC25 /* ConveyerBelt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConveyerBelt.swift; path = ../../DocSim/DocSim/ConveyerBelt.swift; sourceTree = "<group>"; };
+		26D0F2632BAF43BD0031FC25 /* TriangularDistributionServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriangularDistributionServer.swift; path = ../../DocSim/DocSim/TriangularDistributionServer.swift; sourceTree = "<group>"; };
+		26D0F2642BAF43BD0031FC25 /* ProductQueueStateM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductQueueStateM.swift; path = ../../DocSim/DocSim/ProductQueueStateM.swift; sourceTree = "<group>"; };
+		26D0F2652BAF43BD0031FC25 /* DocSimEventManagers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DocSimEventManagers.swift; path = ../../DocSim/DocSim/DocSimEventManagers.swift; sourceTree = "<group>"; };
+		26D0F2662BAF43BD0031FC25 /* TruckStateM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TruckStateM.swift; path = ../../DocSim/DocSim/TruckStateM.swift; sourceTree = "<group>"; };
+		26D0F2672BAF43BD0031FC25 /* LoadingDockStateM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadingDockStateM.swift; path = ../../DocSim/DocSim/LoadingDockStateM.swift; sourceTree = "<group>"; };
+		26D0F2682BAF43BD0031FC25 /* PersonStateM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonStateM.swift; path = ../../DocSim/DocSim/PersonStateM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D0F2462BAF42870031FC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0F2612BAF43530031FC25 /* SwErl in Frameworks */,
+				26D0F24F2BAF42870031FC25 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D0F2402BAF42870031FC25 = {
+			isa = PBXGroup;
+			children = (
+				26D0F24B2BAF42870031FC25 /* VisionDocSim */,
+				26D0F24C2BAF42870031FC25 /* Packages */,
+				26D0F24A2BAF42870031FC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D0F24A2BAF42870031FC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D0F2492BAF42870031FC25 /* VisionDocSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D0F24B2BAF42870031FC25 /* VisionDocSim */ = {
+			isa = PBXGroup;
+			children = (
+				26D0F2502BAF42870031FC25 /* VisionDocSimApp.swift */,
+				26D0F2522BAF42870031FC25 /* ContentView.swift */,
+				26D0F2622BAF43BD0031FC25 /* ConveyerBelt.swift */,
+				26D0F2652BAF43BD0031FC25 /* DocSimEventManagers.swift */,
+				26D0F2672BAF43BD0031FC25 /* LoadingDockStateM.swift */,
+				26D0F2682BAF43BD0031FC25 /* PersonStateM.swift */,
+				26D0F2642BAF43BD0031FC25 /* ProductQueueStateM.swift */,
+				26D0F2632BAF43BD0031FC25 /* TriangularDistributionServer.swift */,
+				26D0F2662BAF43BD0031FC25 /* TruckStateM.swift */,
+				26D0F2542BAF42880031FC25 /* Assets.xcassets */,
+				26D0F2592BAF42880031FC25 /* Info.plist */,
+				26D0F2562BAF42880031FC25 /* Preview Content */,
+			);
+			path = VisionDocSim;
+			sourceTree = "<group>";
+		};
+		26D0F24C2BAF42870031FC25 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				26D0F24D2BAF42870031FC25 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		26D0F2562BAF42880031FC25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26D0F2572BAF42880031FC25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D0F2482BAF42870031FC25 /* VisionDocSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D0F25C2BAF42880031FC25 /* Build configuration list for PBXNativeTarget "VisionDocSim" */;
+			buildPhases = (
+				26D0F2452BAF42870031FC25 /* Sources */,
+				26D0F2462BAF42870031FC25 /* Frameworks */,
+				26D0F2472BAF42870031FC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionDocSim;
+			packageProductDependencies = (
+				26D0F24E2BAF42870031FC25 /* RealityKitContent */,
+				26D0F2602BAF43530031FC25 /* SwErl */,
+			);
+			productName = VisionDocSim;
+			productReference = 26D0F2492BAF42870031FC25 /* VisionDocSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D0F2412BAF42870031FC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					26D0F2482BAF42870031FC25 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 26D0F2442BAF42870031FC25 /* Build configuration list for PBXProject "VisionDocSim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D0F2402BAF42870031FC25;
+			packageReferences = (
+				26D0F25F2BAF43530031FC25 /* XCRemoteSwiftPackageReference "SwErl" */,
+			);
+			productRefGroup = 26D0F24A2BAF42870031FC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D0F2482BAF42870031FC25 /* VisionDocSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D0F2472BAF42870031FC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0F2582BAF42880031FC25 /* Preview Assets.xcassets in Resources */,
+				26D0F2552BAF42880031FC25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D0F2452BAF42870031FC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D0F2532BAF42870031FC25 /* ContentView.swift in Sources */,
+				26D0F26A2BAF43BD0031FC25 /* TriangularDistributionServer.swift in Sources */,
+				26D0F2692BAF43BD0031FC25 /* ConveyerBelt.swift in Sources */,
+				26D0F26B2BAF43BD0031FC25 /* ProductQueueStateM.swift in Sources */,
+				26D0F2512BAF42870031FC25 /* VisionDocSimApp.swift in Sources */,
+				26D0F26F2BAF43BD0031FC25 /* PersonStateM.swift in Sources */,
+				26D0F26C2BAF43BD0031FC25 /* DocSimEventManagers.swift in Sources */,
+				26D0F26D2BAF43BD0031FC25 /* TruckStateM.swift in Sources */,
+				26D0F26E2BAF43BD0031FC25 /* LoadingDockStateM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26D0F25A2BAF42880031FC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		26D0F25B2BAF42880031FC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		26D0F25D2BAF42880031FC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionDocSim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.swerl.VisionDocSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		26D0F25E2BAF42880031FC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionDocSim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.swerl.VisionDocSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D0F2442BAF42870031FC25 /* Build configuration list for PBXProject "VisionDocSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D0F25A2BAF42880031FC25 /* Debug */,
+				26D0F25B2BAF42880031FC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D0F25C2BAF42880031FC25 /* Build configuration list for PBXNativeTarget "VisionDocSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D0F25D2BAF42880031FC25 /* Debug */,
+				26D0F25E2BAF42880031FC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26D0F25F2BAF43530031FC25 /* XCRemoteSwiftPackageReference "SwErl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/inter-erlang/SwErl";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26D0F24E2BAF42870031FC25 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		26D0F2602BAF43530031FC25 /* SwErl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26D0F25F2BAF43530031FC25 /* XCRemoteSwiftPackageReference "SwErl" */;
+			productName = SwErl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26D0F2412BAF42870031FC25 /* Project object */;
+}

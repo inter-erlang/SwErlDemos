@@ -24,7 +24,7 @@ enum TruckStateM:GenStatemBehavior{
     //
     static func startLink(for name:String = "truck",boxCapacity:UInt, arrivalInterval:Double, loadingTimeInterval: Double)throws{
         
-        let pid = try GenStateM.startLink(name: name, statem: TruckStateM.self, initialData: (boxCapacity,arrivalInterval,loadingTimeInterval))//there will only be one truck simulating many in the simulation so we can hardcode the name
+        try GenStateM.startLink(name: name, statem: TruckStateM.self, initialData: (boxCapacity,arrivalInterval,loadingTimeInterval))//there will only be one truck simulating many in the simulation so we can hardcode the name
     }
     
     
